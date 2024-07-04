@@ -8,7 +8,7 @@ package pkg000_t1p74_holamundo;
  *
  * @author eguij
  */
-public class Main {
+public class HolaMundo {
 
     /**
      * @param args the command line arguments
