@@ -12,16 +12,6 @@ package pkg008_t1_palosbaraja;
  * @FileName PalosBaraja
  * @DateCreation 23 jul 2024
  * @TimeCreation 23:48:00
- * Escribe un pequeño programa en Java que defina un enumerado con los nombres 
- * de los palos de la baraja española: OROS, COPAS, BASTOS, ESPADAS, para 
- * posteriormente mostrar por pantalla cada valor del enumerado declarado.
- * La salida por pantalla podría ser algo así:
- * PALOS DE LA BARAJA ESPAÑOLA
- * ---------------------------
- * Palo 1: OROS
- * Palo 2: COPAS
- * Palo 3: BASTOS
- * Palo 4: ESPADAS
  */
 public class PalosBaraja {
     

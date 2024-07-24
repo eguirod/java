@@ -30,8 +30,33 @@ public class CalculosAritmeticos {
     public static void main(String[] args) {
         
         // DECLARACIÓN DE VARIABLES
+        // Variables de salida
         double doubleFirstNumber, halfSecondNumber, squared, oneTenth;
+        // Variables de entrada
+        double number1, number2;
+        // DECLARACIÓN DE CLASES
+        Scanner sc = new Scanner(System.in);
         
+        // ENTRADA DE DATOS
+        System.out.print("Indique el primer número real: ");
+        number1 = sc.nextDouble();
+        System.out.print("Indique el segundo número real: ");
+        number2 = sc.nextDouble();
+        System.out.println("");
+        
+        // CÁLCULO
+        doubleFirstNumber = number1 * 2;
+        halfSecondNumber = number2 / 2;
+        squared = (number1 + number2) * (number1 + number2);
+        oneTenth = (number1 * number1 + number2 * number2) / 10;
+        
+        // SALIDA
+        System.out.println("RESULTADOS");
+        System.out.println("----------");
+        System.out.println("El doble del primer número: "+ doubleFirstNumber);
+        System.out.println("La mitad del segundo número: "+ halfSecondNumber);
+        System.out.println("El cuadrado de la suma de ambos números: "+ squared);
+        System.out.println("La décima parte de la suma los cuadrados de ambos números: "+ oneTenth);
     }
 
 }
