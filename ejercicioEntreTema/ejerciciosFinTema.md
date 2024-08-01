@@ -112,3 +112,57 @@ Y otro ejemplo más:
 
 
 ### Ejercicio 6: Estilos de natación  
+Un nadador entrena en la piscina haciendo un largo de ida a estilo crol, un
+ largo de vuelta a estilo espalda, y así sucesivamente.  
+
+Escribe un programa en Java que solicite al usuario la cantidad de largos que
+ ha recorrido el nadador y la longitud de la piscina en la que ha entrenado (en
+ metros). El programa debe calcular e indicar: la cantidad total de metros que
+ ha nadado en cada estilo así como la longitud total que ha recorrido nadando
+ (en kilómetros).  
+
+Ejemplo de ejecución 1: se han nadado 47 largos en una piscina de 25 metros. En
+ tal caso el programa debería indicar que se han nadado 600 metros a crol y 575
+ metros a espalda, de un total de 1,175 kilómetros.  
+
+Ejemplo de ejecución 2: se han nadado 100 largos en una piscina de 15,2 metros.
+ En tal caso el programa debería indicar que se han nadado 760 metros a crol y
+ 760 metros a espalda, de un total de 1,52 kilómetros.  
+
+### Ejercicio 7: Cuadernos de colores  
+Una factoría papelera confecciona cuadernos en los que se van alternando hojas
+ de color rojo, verde y azul. Siempre se comienza por el color rojo, siguiéndole
+ el verde, luego el azul y comenzando nuevamente con el rojo.  
+
+Por ejemplo, si un cuaderno está compuesto por 100 hojas, 34 serían de color
+ rojo, 33 de color verde y 33 de color azul.  
+
+Sin embargo, si el cuaderno tuviera 200 hojas, 67 serían de color rojo, 67 de
+ color verde y 66 de color azul.  
+
+Por otro lado, si el cuaderno tuviera 201 hojas, 67 serían rojas, 67 verdes y 67
+ azules.  
+
+Escribe un programa en Java que solicite por teclado el número de hojas del
+ cuaderno y calcule y muestre por pantalla la cantidad de hojas que contiene de
+ cada color.  
+
+### Ejercicio 8: Concurso de TV  
+Para un concurso de TV se solicitan personas cuyo nombre comience y termine por
+ la misma letra, y además sus apellidos tengan la misma cantidad de letras.  
+
+Escribe un programa en Java que reciba como entradas el nombre, el primer
+ apellido y el segundo apellido de una persona y muestre por pantalla:
+* "La persona es APTA para el concurso" si es apta para participar en el
+ concurso.
+* "La persona es NO APTA para el concurso" si no lo es.  
+
+La primera letra del nombre y de los apellidos debe escribirse en mayúscula y el
+ resto en minúscula. No se admiten acentos ni eñes.  
+
+Aquí tienes algunos ejemplos de funcionamiento:
+1. AnaTorres Barros. Persona APTA para participar en el concurso.
+2. Luis Zagal Hegel. Persona NO APTA para participar en el concurso.
+3. Orlando Bisbal Torzal. Persona APTA para participar en el concurso.
+4. Nanin Torres Manzano. Persona no APTA para participar en el concurso.  
+
