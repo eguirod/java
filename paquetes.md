@@ -25,7 +25,6 @@ Paquete que proporciona interfaces, clases y excepciones para acceder a todo tip
 #### CONSTRUCTORES
 * FileWriter(File file): construye un objeto FileWriter dado u objeto File.
 
-
 ## INTERFACES
 
 ### FILEFILTER
@@ -38,6 +37,23 @@ Este método devolverá verdadero en el caso de que el fichero cuyo nombre se in
 
 ## CLASES
 
+### JFRAME
+
+#### MÉTODOS
+
+```
+etTitle()
+setBounds(x,yx,w,h)
+setLocation
+setMaximumSize(w,h)
+setMinimumSize(w,h)
+setPreferredSize(w,h)
+setResizable(bool)
+setSize(w,h)
+setTitle(str)
+setVisible(bool).
+```
+
 ### JCOMPONENT
 Clase base para los componentes swing.
 
@@ -47,8 +63,21 @@ Define el comportamiento común de los botones y los menús.
 ### JBUTTON
 Botón.
 
+#### MÉTODOS
+
+```setEnabled(bool)``` que permite activar o desactivar el botón.  
+```isEnabled()``` que permite comprobar si está o no activo.  
+```setMnemonic(char)``` que permite asociar una tecla al botón, etc.
+
 ### JMENUITEM
 Elemento de un menú.
+
+#### MÉTODOS
+
+```addSeparator()``` o ```nsertSeparator(posn)``` para añadir separadores.  
+```setEnabled(bool)``` para activar o desactivar el menú item.  
+```isEnabled()``` comprobar si están activos.  
+```etMnemonic(char)``` para añadir teclas de acceso rápido se usa el método.
 
 ### JCHECKBOXMENUITEM
 Elemento del menú que se puede seleccionar o deseleccionar.
@@ -68,17 +97,43 @@ Casilla de verificación.
 ### JRADIOBUTTON
 Botón de opción.
 
+#### MÉTODOS
+
+```isSelected()``` que devuelve el estado del mismo.
+
 ### JCOLORCHOOSER
 Diálogo para seleccionar colores.
 
 ### JCOMBOBOX
-Combinación de caja de texto y lista desplegable.
+Combinación de caja de texto y lista desplegable.  
+
+#### MÉTODOS
+
+```setEditable(true)``` que permite editar los items del combo box.   
+```getSelectedItem()``` y ```getSelectedIndex()``` para recuperar los ítems seleccionados.
+```
+getItemAt(idx)
+getItemCount()
+setSelectedItem(obj)
+setMaximumRowCount(x).
+```
 
 ### JLABEL
 Etiqueta.
 
+#### MÉTODOS
+
+```setText()``` permite modificar el texto.  
+```setVerticalAlignment()``` para modificar la alineación vertical, etc..
+
 ### JLIST
 Lista desplegable.
+
+#### MÉTODOS
+
+```addElement(objName)```, ```elementAt(index)```, ```removeElement(objName)```, r```emoveAllElements()``` y ```removeElementAt(idx)``` para editar los elementos de la lista.  
+```contains(objName)```, ```indexOf(name)``` y ```size()``` para comprobar el estado de la lista.  
+```copyInto(array)``` para convertir la lista en array.
 
 ### JMENUBAR
 Barra de menús.
@@ -89,16 +144,42 @@ Componente que facilita la visualización de un cuadro de diálogo.
 ### JPANEL
 Contenedor genérico.
 
+#### MÉTODOS
+
+```add()``` para añadir componentes al panel.  
+
 ### JPOPUPMENU
 Menú que aparece cuando se selecciona un elemento de una barra de menús.
 
 ### JPROGRESSBAR
 Barra de progreso.
 
+#### MÉTODOS
+
+```
+setExtent()
+setMaximum()
+setMinimum()
+setValue()
+getValueIsAdjusting()
+setOrientation()
+```  
+
 ### JSCROLLBAR:
 Barra de desplazamiento.
 
-### JSROLLPANE
+#### MÉTODOS
+
+```
+setExtent()
+setMaximum()
+setMinimum()
+setValue()
+getValueIsAdjusting()
+setOrientation()
+```  
+
+### JSCROLLPANE
 Área de trabajo con barras de desplazamiento.
 
 ### JSEPARATOR
@@ -106,6 +187,16 @@ Separador para colocar entre dos elementos del menú.
 
 ### JSLIDER
 Permite seleccionar un valor dentro de un intervalo que define.
+
+#### MÉTODOS
+
+```
+setPaintTicks(bool)
+setPaintLabels(bool)
+setSnapToTicks(true)
+setInverted(bool)
+```  
+```setMajorTickSpacing(int)``` y ```setMinorTickSpacing(int)``` para determinar los valores del intervalo.
 
 ### JTABLEHEADER
 Se utiliza para manejar la cabecera de una tabla.
@@ -119,8 +210,34 @@ Edita diferentes tipos de contenido.
 ### JTEXTPANE
 Edita texto con formato, incluyendo imágenes.
 
+#### MÉTODOS
+
+```
+getText()
+setText()
+append(str)
+insert(str,pos)
+replace(str,beg,end)
+setEditable(bool)
+setLineWrap(bool)
+ setWrapStyleWord(bool)
+```
+
 ### JTEXTAREA
 Caja de texto multilínea.
+
+#### MÉTODOS
+
+```
+getText()
+setText()
+append(str)
+insert(str,pos)
+replace(str,beg,end)
+setEditable(bool)
+setLineWrap(bool)
+ setWrapStyleWord(bool)
+```
 
 ### JTEXTFIELD
 Caja de texto de una línea.
