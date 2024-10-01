@@ -28,4 +28,8 @@ Paquete que proporciona interfaces, clases y excepciones para acceder a todo tip
 
 ## INTERFACES
 
+### FILEFILTER
+Se puede usar para crear filtros que establezcan criterios de filtrado relativos al nombre de los ficheros. Una clase que lo implemente debe definir e implementar el método: ```boolean accept(File dir, String nombre)```.  
+Este método devolverá verdadero en el caso de que el fichero cuyo nombre se indica en el parámetro nombre aparezca en la lista de los ficheros del directorio indicado por el parámetro dir.
+
 ## EXCEPCIONES
