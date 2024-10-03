@@ -33,7 +33,7 @@ Este método devolverá verdadero en el caso de que el fichero cuyo nombre se in
 
 ## EXCEPCIONES
 
-# SWING
+# SWING / AWT
 
 ## CLASES
 
@@ -247,3 +247,21 @@ Se usa para introducir contraseñas.
 
 ### JTOOLBAR
 Barra de herramientas.
+
+## INTERFACES
+
+### ACTIONLISTENER
+
+Interfaz de escucha para recibir eventos de acción.  
+La clase que está interesada en procesar un evento de acción implementa esta interfaz, y el objeto creado con esa clase se registra con un componente, utilizando el método addActionListener del componente. Cuando se produce el evento de acción, se invoca el método actionPerformed de ese objeto.
+
+#### MÉTODOS
+
+```actionPerformed(ActionEvent e)``` invocado cuando ocurre una acción.
+
+### WINDOWSLISTENER
+
+La interfaz de escucha para recibir eventos de ventana. La clase interesada en procesar un evento de ventana implementa esta interfaz (y todos los métodos que contiene) o extiende la clase abstracta WindowAdapter (sobrescribiendo sólo los métodos de interés). El objeto listener creado a partir de esa clase se registra en una ventana mediante el método addWindowListener de la ventana. Cuando el estado de la ventana cambia en virtud de ser abierta, cerrada, activada o desactivada, iconificada o deiconificada, se invoca el método relevante en el objeto listener, y se le pasa el WindowEvent.
+
+#### MÉTODOS
+
